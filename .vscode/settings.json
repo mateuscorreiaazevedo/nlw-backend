@@ -3,7 +3,8 @@
   "prettier.configPath": "./.prettierrc",
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
   },
   "search.showLineNumbers": false,
   "workbench.editor.enablePreview": false,
@@ -12,6 +13,5 @@
   "git.ignoreLimitWarning": true,
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma",
-    "editor.formatOnSave": true
   }
 }

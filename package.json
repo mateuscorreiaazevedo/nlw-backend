@@ -11,11 +11,18 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
-    "@rocketseat/eslint-config": "^1.2.0",
     "@types/node": "^20.1.5",
-    "eslint": "^8.40.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
     "prettier": "^2.8.8",
     "prisma": "^4.14.0",
@@ -24,7 +31,9 @@
   },
   "dependencies": {
     "@fastify/cors": "^8.2.1",
+    "@fastify/jwt": "^6.7.1",
     "@prisma/client": "^4.14.0",
+    "axios": "^1.4.0",
     "fastify": "^4.17.0",
     "zod": "^3.21.4"
   }
