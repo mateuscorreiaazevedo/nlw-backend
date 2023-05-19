@@ -4,7 +4,7 @@
   "editor.inlineSuggest.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.organizeImports": true
+    // "source.organizeImports": true
   },
   "search.showLineNumbers": false,
   "workbench.editor.enablePreview": false,
