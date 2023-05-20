@@ -122,4 +122,7 @@ export async function memoriesRoutes (app: FastifyInstance) {
 
     return { message: 'Memória deletada com sucesso!' }
   })
+  app.delete('/memories', async () => {
+    await prisma.memory.deleteMany()
+  })
 }
